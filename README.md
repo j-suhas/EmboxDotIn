@@ -1,5 +1,5 @@
 # Embox
 
 Single page Website
-emboxdotin 
+emboxdotin
 embox.in
