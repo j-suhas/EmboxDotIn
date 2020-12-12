@@ -828,15 +828,15 @@
 		document.getElementById('contact-form').addEventListener('submit', function (event) {
 			document.getElementById("button").innerHTML = "Sending...";
 			event.preventDefault();
-			emailjs.sendForm('service_vy7tcgg', 'template_2tgzlua', this)
+			emailjs.sendForm('service_clientquery', 'template_clientquery', this)
 				.then(function () {
 					console.log('SUCCESS!');
 					document.getElementById("button").innerHTML = "Send";
-					alert("Your message has been sent successfully. Thank you.");
+					alert("Your message has been sent successfully. Thank you for approaching us.");
 					document.getElementById("contact-form").reset();
 				}, function (error) {
 					console.log('FAILED...', error);
-					alert("Error!!! Please try again.");
+					alert("Error! Something not went well. Please try again.");
 				});
 		});
 
