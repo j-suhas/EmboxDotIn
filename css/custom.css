@@ -1,7 +1,5 @@
 /* reset starts */
-body {
-	overflow-x: hidden;
-}
+
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
 color: #b7c1c8 !important;
 }
@@ -19,10 +17,12 @@ color: #b7c1c8 !important;
 }
 input, textarea{
 	background: rgba(0, 0, 0, 0.2) !important;
+
 	border: solid 1px !important;
 }
 textarea{
 	resize: none;
+	height: 
 }
 .about-text, .feedback, .address{
 	font-family: 'Open Sans', Arial, sans-serif !important; 
@@ -75,11 +75,10 @@ textarea{
 	width: 90%;
 	text-align: justify;
 }
-/*landing page*/
+/*contact us section ends*/
+/*banner animation*/
 
-.landing-slider img {
-	transition: transform .2s !important;
-}
+/*landing page*/
 .carousel-item{
 	position: relative !important;
 }
@@ -221,17 +220,12 @@ textarea{
 		font-size: 10px;
 		line-height: 14px;
 	}
-	.owl-carousel .owl-nav button.owl-next {
-		right: -30px !important;
-	}
-	.owl-carousel .owl-nav button.owl-prev {
-		left: -30px !important;
-	}
 }
 @media only screen and (max-width: 280px){
 
 	.slider-head {
-		font-size:11px !important;
+		font-size:10px;
+		line-height: 14px;
 	}
 	.type-animation{
 		font-size:18px;
@@ -251,11 +245,6 @@ textarea{
 	}
 }
 @media only screen and (max-width: 426px){
-	.landing-slider img {
-		-ms-transform: scale(3); /* IE 9 */
-		-webkit-transform: scale(3); /* Safari 3-8 */
-		transform: scale(3);
-	}
 	.carousel-caption{
 		top: 43%;
 	}
@@ -301,12 +290,6 @@ textarea{
 	}
 	.about-us-blockquote:after {
 		margin: -12px -19px !important;
-	}
-}
-@media only screen and (max-width: 920px){
-
-	.feedback {
-		white-space: normal;
 	}
 }
 /* carousel indicatiors */
@@ -387,12 +370,12 @@ textarea{
     height: 50px !important;
 }
 .owl-carousel .owl-nav button.owl-next {
-	right: -100px; 
+	right: -50px; 
 	border-radius: 100%;
 	background: rgba(0, 0, 0, 0.6) !important;
 }
 .owl-carousel .owl-nav button.owl-prev {
-	left: -100px;
+	left: -50px;
 	border-radius: 100%;
 	background: rgba(0, 0, 0, 0.6) !important;
 }
