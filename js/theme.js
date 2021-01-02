@@ -1,10 +1,4 @@
-/*
-Name: 			Theme Base
-Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	8.1.0
-*/
 
-// Theme
 window.theme = {};
 
 // Theme Common Functions
